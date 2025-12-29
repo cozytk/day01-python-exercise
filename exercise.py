@@ -87,8 +87,7 @@ def calculate_average(numbers: list) -> float:
 
     힌트: sum()과 len() 함수를 조합하세요
     """
-    # TODO: 여기에 코드를 작성하세요
-    pass
+    return sum(numbers) / len(numbers)
 
 
 def filter_even(numbers: list) -> list:
