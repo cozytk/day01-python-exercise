@@ -153,8 +153,7 @@ def count_occurrences(items: list, target) -> int:
 
     힌트: list.count() 메서드를 사용하세요
     """
-    # TODO: 여기에 코드를 작성하세요
-    pass
+    return items.count(target)
 
 
 def remove_duplicates(items: list) -> list:
@@ -176,8 +175,7 @@ def remove_duplicates(items: list) -> list:
     힌트: dict.fromkeys()를 사용하면 순서를 유지하면서 중복 제거 가능
           list(dict.fromkeys(items))
     """
-    # TODO: 여기에 코드를 작성하세요
-    pass
+    return list(dict.fromkeys(items))
 
 
 def reverse_string(text: str) -> str:
