@@ -109,8 +109,7 @@ def filter_even(numbers: list) -> list:
     힌트: 리스트 컴프리헨션과 % 연산자를 사용하세요
           n % 2 == 0 이면 짝수입니다
     """
-    # TODO: 여기에 코드를 작성하세요
-    pass
+    return [n for n in numbers if n % 2 == 0]
 
 
 def filter_odd(numbers: list) -> list:
@@ -132,8 +131,7 @@ def filter_odd(numbers: list) -> list:
     힌트: 리스트 컴프리헨션과 % 연산자를 사용하세요
           n % 2 != 0 이면 홀수입니다
     """
-    # TODO: 여기에 코드를 작성하세요
-    pass
+    return [n for n in numbers if n % 2 != 0]
 
 
 def count_occurrences(items: list, target) -> int:
