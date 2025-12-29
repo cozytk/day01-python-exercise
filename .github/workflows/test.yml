@@ -16,8 +16,8 @@ jobs:
 
     - name: Build and test with Docker Compose
       run: |
-        docker-compose build
-        docker-compose run --rm test
+        docker compose build
+        docker compose run --rm test
 
     - name: Test Summary
       if: always()
