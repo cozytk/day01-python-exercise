@@ -196,8 +196,7 @@ def reverse_string(text: str) -> str:
 
     힌트: 슬라이싱 [::-1]을 사용하세요
     """
-    # TODO: 여기에 코드를 작성하세요
-    pass
+    return text[::-1]
 
 
 def is_palindrome(text: str) -> bool:
@@ -221,5 +220,4 @@ def is_palindrome(text: str) -> bool:
 
     힌트: 문자열과 뒤집은 문자열을 비교하세요
     """
-    # TODO: 여기에 코드를 작성하세요
-    pass
+    return text == text[::-1]
