@@ -24,8 +24,7 @@ def calculate_sum(numbers: list) -> int | float:
 
     힌트: sum() 내장 함수를 사용하세요
     """
-    # TODO: 여기에 코드를 작성하세요
-    pass
+    return sum(numbers)
 
 
 def find_max(numbers: list) -> int | float:
@@ -46,8 +45,7 @@ def find_max(numbers: list) -> int | float:
 
     힌트: max() 내장 함수를 사용하세요
     """
-    # TODO: 여기에 코드를 작성하세요
-    pass
+    return max(numbers)
 
 
 def find_min(numbers: list) -> int | float:
@@ -68,8 +66,7 @@ def find_min(numbers: list) -> int | float:
 
     힌트: min() 내장 함수를 사용하세요
     """
-    # TODO: 여기에 코드를 작성하세요
-    pass
+    return min(numbers)
 
 
 def calculate_average(numbers: list) -> float:
